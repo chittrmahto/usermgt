@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html  lang="en" xmlns:th="http://www.thymeleaf.org" th:replace="~{base::layout(~{::section})}">
+    <head>
+
+    </head>
+<body>
+
+    <section>
+        <div class="container p-5">
+            <div class="row">
+                <div class="col-md-6 offset-md-3">
+                    <div class="card">
+                        <div class="card-header fs-4 text-center">
+                            Login page
+                        </div>
+                        <div class="card-body">
+                            <form>
+                                <div class="mb-3">
+                                  <label class="form-label">Email address</label>
+                                  <input type="email" name="email" class="form-control" >
+                                </div>
+                                <div class="mb-3">
+                                  <label class="form-label">Password</label>
+                                  <input type="password" name="password" class="form-control" >
+                                </div>
+                                <button type="submit" class="btn btn-primary">Submit</button>
+                              </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html> 
